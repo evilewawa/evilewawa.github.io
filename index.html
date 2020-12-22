@@ -3,6 +3,10 @@
 <head>
 	<title>Maaz Khan</title>
 	<link rel = "stylesheet" href = "styles.css">
+	<link rel = "shortcut icon" type = "image/x-icon" href="favicon.ico"/>
+
+</head>
+<body onready = "main()">
 	<header>
 		<!-- <label for="cars">Choose a car:</label>
 		<select name="cars" id="cars">
@@ -18,37 +22,61 @@
 		<div><h1>Maaz Khan</h1></div>
 		<div>
 			<div class="dropdown">
-				<button class="dropbtn">Things</button>
+				<button class="dropbtn">Simple Projects</button>
 				<div class="dropdown-content">
-				<a href='#' id = "snak">Snake</a>
-				<a href="#">TO be added</a>
+				<a href='#' id = "spinner">Spinner</a>
+				<a href="#">To be added</a>
 				</div>
 			</div>
 		</div>
 		<div>
 			<div class = "dropdown">
-				<button class = "dropbtn">My Other Projects</button>
+				<button class = "dropbtn">Website Projects</button>
 				<div class="dropdown-content">
-					<a href = "https://evilewawa.github.io/sorting/">Sorting Visualizer<a>
+					<a href = "https://evilewawa.github.io/sorting/">Sorting Visualizer</a>
 					<a href = "https://evilewawa.github.io/bluk/">The Official Bluk Homepage</a>
 					<a href = "https://evilewawa.github.io/">This Page</a>
 				</div>
 			</div>
 		</div>
 	</header>
-</head>
-<body>
-	<div class= "containers">
-		<img src = "anti bluk.PNG">
-		<h1>About Me</h1>
-		<p id = "years_old">I am </p>
-		<p>U are not cool</p>
-		<p>Farah is a bluk</p>
-		<p>I am pretty cool</p>
+	<div class= "containers" id = "body">
+		<div class = "face-container">
+			<img src = "hotty.jpg" id = "MY_FACE">
+		</div>		
+		<div class = "paragraph">
+			<h1 class = "paraTitle">Who Am I</h1>
+			<h2>I currently go to Glenforest Secondary School, 
+				with an expected IB diploma in 2022. I am good at maths
+				and other subjects, and I hope to go to Waterloo University
+				for CS.
+			</h2>
+		</div>
+		<div class = "paragraph">
+			<h1 class = "paraTitle">My History With Code</h1>
+			<h2>
+				I started programming at age 15 and I know python, java
+				and html (javascript and css included). My prefered language
+				is python and my porjects and by seen at
+				<a href = "https://github.com/evilewawa/">my Github Link</a>
+			</h2>
+		</div>
+		<div class = "paragraph">
+			<h1 class = "paraTitle">Some of my website projects</h1>
+			<h2>
+				<ul>
+					<li><a href = "https://evilewawa.github.io/sorting/">Sorting Visualizer</a></li>
+				</ul>
+			</h2>
+		</div>
 	</div>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
 	<script src = "index.js"></script>
+	<footer>
+		<h1>Glenforest SS, IB Diploma expected 2022</h1>
+	</footer>
 </body>
-<footer>
-	<h1>Glenforest SS, IB Diploma expected 2022</h1>
-</footer>
+
 </html>
