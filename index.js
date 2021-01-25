@@ -1,15 +1,22 @@
 const spinner_button = document.getElementById("spinner");
 const body_div = document.getElementById("body")
+const numPpl = document.getElementById("numPPL")
 var textbox_input = ""
 var spin_button = ""
 var count = 0;
 
 spinner_button.onclick = function(){
     body_div.innerHTML = "";
+    var p = document.createElement("p")
+    p.innerText = "Work in progress."
+    p.setAttribute("id", "wip")
+    body_div.appendChild(p)
     var input = document.createElement("input");
     input.setAttribute("id", "stuff");
     input.setAttribute("type", "text")
     input.setAttribute("oninput", "counting()")
+    input.setAttribute("style", "width:500px; height:50px; font-size: 25px; ")
+    input.setAttribute("placeholder", "Put options here, seperate with space")
     body_div.appendChild(input);
     textbox_input = document.getElementById("stuff");
     var spin = document.createElement("input")
@@ -84,5 +91,3 @@ function sleep(milliseconds) {
         currentDate = Date.now();
     } while (currentDate - date < milliseconds);
 }
-
-
