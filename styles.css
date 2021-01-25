@@ -47,7 +47,7 @@ header > div{
     height: fit-content; 
 }
 #MY_FACE{
-    max-width: 75%;
+    max-width: 70%;
 }
 .paragraph{
     margin:25px;
@@ -202,7 +202,7 @@ img{
     width: 100%;
 }
 .paragraph img{
-    width:33%;
+    width:25%;
     padding: 5px;
 }
 #fitlangs{
