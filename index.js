@@ -1,10 +1,11 @@
 const spinner_button = document.getElementById("spinner");
 const body_div = document.getElementById("body")
 const numPpl = document.getElementById("numPPL")
+const face = document.getElementById("MY_FACE")
 var textbox_input = ""
 var spin_button = ""
 var count = 0;
-
+face.setAttribute("src","Photo from Maaz.jpg")
 spinner_button.onclick = function(){
     body_div.innerHTML = "";
     var p = document.createElement("p")
