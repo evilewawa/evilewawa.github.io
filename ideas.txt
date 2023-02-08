@@ -1,0 +1,4 @@
+idea would be to change order of projects based on most recently worked on
+ - would be done by automating pushes to the github repo by getting the most recently worked on project on that day
+ app.haikei.app
+ anime.js or kute.js idk
