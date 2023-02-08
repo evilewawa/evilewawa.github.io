@@ -252,6 +252,15 @@ header{
     width:40%;
     justify-self: end;
 }
+svg{
+    margin-top: 25px;
+    height: 250px;
+}
+.hex{
+    fill: #DAE3E7;
+    stroke: rgb(242, 242, 255);
+    stroke-width: 5px;
+}
 /* utility classes */
 .backblue{
     background-color:rgb(43, 74, 209);
