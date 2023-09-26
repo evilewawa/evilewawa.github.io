@@ -246,6 +246,10 @@ header{
     font-size: 35px;
     margin-bottom: 20px;
 }
+.project_subtitle{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 .project_images{
     margin-left: 50px;
     margin-right: 10vw;
